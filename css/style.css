@@ -28,7 +28,7 @@ main {
 
 .card:hover {
   height: 500px;
-  transition: 0.9ms;
+  transition: 0.9s;
 }
 
 .card:hover .card :first-child {
