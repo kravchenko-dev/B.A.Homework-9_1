@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 1200px;
+  height: 600px;
+  background-color: #fdde7e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  height: 441px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  height: 500px;
+  transition: 0.9s;
+}
+
+.card:hover .card :first-child {
+  padding-top: 97px;
+}
+
+.card:hover img {
+  padding-top: 68px;
+}
+
+.card:hover h3 {
+  padding-top: 52px;
+}
+
+.card:hover .card :last-child {
+  padding-top: 40px;
+}
+
+h3,
+p {
+  font-family: 'Miso', sans-serif;
+  color: #333333;
+}
+
+.card :first-child {
+  font-size: 70px;
+  line-height: 24px;
+  letter-spacing: o.025em;
+  padding-top: 67px;
+  font-weight: 600;
+  color: #02995b;
+}
+
+h3 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 40px;
+}
+
+.card :last-child {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  font-family: 'Lato', sans-serif;
+  width: 180px;
+  margin: auto;
+  padding-top: 35px;
+}
+
+img {
+  padding-top: 46px;
+  vertical-align: middle;
+}
